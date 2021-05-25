@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 19, Time elapsed: 124.552 s <<< FAILURE! - in TestSuite
+verifyCruisesPageTitleTest(com.tripadvisor.tests.CruisesTest)  Time elapsed: 67.538 s  <<< FAILURE!
+java.lang.AssertionError: expected [Cruises - Cheap Cruise Holidays: 2020 Destinations & Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations & Ports - Tripadvisor]
+	at com.tripadvisor.tests.CruisesTest.verifyCruisesPageTitleTest(CruisesTest.java:51)
+
+invalidLocationTest(com.tripadvisor.tests.HolidayHomesTest)  Time elapsed: 14.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+Test case failed: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LT9O9K0', ip: '192.168.222.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MAHI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 548ebebc85a5a07b7f8c82998a53749a
+	at com.tripadvisor.tests.HolidayHomesTest.invalidLocationTest(HolidayHomesTest.java:40)
+

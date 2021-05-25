@@ -1,0 +1,26 @@
+2021-05-25 07:18:21.115 [main] DEBUG com.tripadvisor.base.BaseUI - Opening browser
+2021-05-25 07:18:25.918 [main] INFO  com.tripadvisor.base.BaseUI - Opened browser
+2021-05-25 07:18:25.918 [main] DEBUG com.tripadvisor.base.BaseUI - Opening URL
+2021-05-25 07:18:52.642 [main] INFO  com.tripadvisor.base.BaseUI - Opened URL
+2021-05-25 07:18:52.664 [main] DEBUG com.tripadvisor.pages.HomePage - Clicking on Holiday Homes button
+2021-05-25 07:18:52.788 [main] INFO  com.tripadvisor.pages.HomePage - Clicked on Holiday Homes button
+2021-05-25 07:18:52.788 [main] DEBUG com.tripadvisor.pages.HomePage - Searching for location: Nairobi
+2021-05-25 07:19:01.784 [main] INFO  com.tripadvisor.pages.HomePage - Searched for location: Nairobi
+2021-05-25 07:19:01.800 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Clicking on location
+2021-05-25 07:19:01.917 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Clicked on location
+2021-05-25 07:19:01.917 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Switching to new tab
+2021-05-25 07:19:01.936 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Switched to new tab
+2021-05-25 07:19:10.660 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Clicking on Holiday Homes button
+2021-05-25 07:19:49.862 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Clicked on Holiday Homes button
+2021-05-25 07:19:49.864 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on 'Cruises' button
+2021-05-25 07:19:59.849 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on 'Cruises' button
+2021-05-25 07:19:59.860 [main] DEBUG com.tripadvisor.pages.CruisesPage - Getting title of Cruises page
+2021-05-25 07:19:59.864 [main] INFO  com.tripadvisor.pages.CruisesPage - Title of Cruises page is: Cruises - Cheap Cruise Holidays: 2021 Destinations & Ports - Tripadvisor
+2021-05-25 07:20:01.018 [main] DEBUG com.tripadvisor.base.BaseUI - Opening browser
+2021-05-25 07:20:02.285 [main] INFO  com.tripadvisor.base.BaseUI - Opened browser
+2021-05-25 07:20:02.285 [main] DEBUG com.tripadvisor.base.BaseUI - Opening URL
+2021-05-25 07:20:09.771 [main] INFO  com.tripadvisor.base.BaseUI - Opened URL
+2021-05-25 07:20:09.771 [main] DEBUG com.tripadvisor.pages.HomePage - Clicking on Holiday Homes button
+2021-05-25 07:20:17.700 [main] INFO  com.tripadvisor.pages.HomePage - Clicked on Holiday Homes button
+2021-05-25 07:20:17.701 [main] DEBUG com.tripadvisor.pages.HomePage - Searching for location: dummylocation
+2021-05-25 07:20:23.578 [main] ERROR com.tripadvisor.pages.HomePage - Failed to send text to element

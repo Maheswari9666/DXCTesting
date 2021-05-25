@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="124.552" tests="21" errors="0" skipped="19" failures="2">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MAHI\Documents\Workspace\Trip_Advisor_Automation\target\test-classes;C:\Users\MAHI\Documents\Workspace\Trip_Advisor_Automation\target\classes;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\MAHI\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\MAHI\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MAHI\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\MAHI\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MAHI\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MAHI\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MAHI\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MAHI\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MAHI\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\MAHI\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\MAHI\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\MAHI\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\MAHI\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\MAHI\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\MAHI\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\MAHI\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\MAHI\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\MAHI\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\MAHI\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\MAHI\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\MAHI\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MAHI\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\MAHI\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\MAHI\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\MAHI\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\MAHI\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\MAHI\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\MAHI\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\MAHI\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\MAHI\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\MAHI\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\MAHI\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\MAHI\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\MAHI\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\MAHI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\MAHI\AppData\Local\Temp\surefire9568964479472156157\surefirebooter2974784991921730398.jar C:\Users\MAHI\AppData\Local\Temp\surefire9568964479472156157 2021-05-25T07-18-14_607-jvmRun1 surefire16781987565209273819tmp surefire_09966022901373814204tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MAHI\Documents\Workspace\Trip_Advisor_Automation\target\test-classes;C:\Users\MAHI\Documents\Workspace\Trip_Advisor_Automation\target\classes;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\MAHI\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\MAHI\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\MAHI\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MAHI\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\MAHI\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MAHI\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MAHI\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MAHI\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MAHI\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MAHI\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\MAHI\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\MAHI\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\MAHI\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\MAHI\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\MAHI\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\MAHI\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\MAHI\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\MAHI\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\MAHI\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\MAHI\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\MAHI\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\MAHI\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MAHI\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\MAHI\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\MAHI\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\MAHI\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\MAHI\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\MAHI\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\MAHI\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\MAHI\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\MAHI\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\MAHI\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\MAHI\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\MAHI\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\MAHI\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MAHI"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Users\MAHI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MAHI\Documents\Workspace\Trip_Advisor_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MAHI\AppData\Local\Temp\surefire9568964479472156157\surefirebooter2974784991921730398.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="MAHI"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MAHI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAHI\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\MAHI\Documents\Workspace\Trip_Advisor_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\MAHI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/MAHI/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/MAHI/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Users\MAHI\Desktop\Python\Scripts\;C:\Users\MAHI\Desktop\Python\;C:\Users\MAHI\Desktop\Scripts\;C:\Users\MAHI\Desktop\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\MAHI\Desktop\runtime\win64;C:\Users\MAHI\Desktop\bin;C:\Users\MAHI\Downloads\runtime\win64;C:\Users\MAHI\Downloads\bin;C:\Users\MAHI\Downloads\Matlab\runtime\win64;C:\Users\MAHI\Downloads\Matlab\bin;C:\Users\MAHI\Downloads\matlab 2014b\Crack 2014\runtime\win64;C:\Users\MAHI\Downloads\matlab 2014b\Crack 2014\bin;C:\Users\MAHI\Downloads\allure-2.14.0\allure-2.14.0\bin;C:\Users\MAHI\Downloads\allure-2.14.0\allure-2.14.0;C:\Users\MAHI\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Users\MAHI\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Java\jre1.8.0_291\bin;C:\Users\MAHI\AppData\Local\Microsoft\WindowsApps;;C:\Users\MAHI\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="verifyCruisesPageTitleTest" classname="com.tripadvisor.tests.CruisesTest" time="67.538">
+    <failure message="expected [Cruises - Cheap Cruise Holidays: 2020 Destinations &amp; Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations &amp; Ports - Tripadvisor]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Cruises - Cheap Cruise Holidays: 2020 Destinations & Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations & Ports - Tripadvisor]
+	at com.tripadvisor.tests.CruisesTest.verifyCruisesPageTitleTest(CruisesTest.java:51)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 24481
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621907305.721][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 25, 2021 7:18:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchNotActivatedTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.verifySearchNotActivatedTest()[pri:0, instance:com.tripadvisor.tests.CruisesTest@366c4480] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyShipDropDownNotActivatedTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.verifyShipDropDownNotActivatedTest()[pri:0, instance:com.tripadvisor.tests.CruisesTest@366c4480] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyCruiseIsSelectedTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.verifyCruiseIsSelectedTest(java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.CruisesTest@366c4480] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="cruiseDetailsTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.cruiseDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.CruisesTest@366c4480] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="invalidLocationTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="14.003">
+    <failure message="Test case failed: stale element reference: element is not attached to the page document&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-LT9O9K0&apos;, ip: &apos;192.168.222.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MAHI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 548ebebc85a5a07b7f8c82998a53749a" type="java.lang.AssertionError">java.lang.AssertionError: 
+Test case failed: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LT9O9K0', ip: '192.168.222.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MAHI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 548ebebc85a5a07b7f8c82998a53749a
+	at com.tripadvisor.tests.HolidayHomesTest.invalidLocationTest(HolidayHomesTest.java:40)
+</failure>
+    <system-out><![CDATA[Execution of first Test Case done
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 13346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621907402.115][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 25, 2021 7:20:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LT9O9K0', ip: '192.168.222.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MAHI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 548ebebc85a5a07b7f8c82998a53749a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.tripadvisor.base.BaseUI.sendText(BaseUI.java:162)
+	at com.tripadvisor.pages.HomePage.searchHolidayHomesLocation(HomePage.java:39)
+	at com.tripadvisor.tests.HolidayHomesTest.invalidLocationTest(HolidayHomesTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchLocationTitleTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifySearchLocationTitleTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="holidayHomesTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.holidayHomesTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyBookNowTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyBookNowTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyHotelCheckInTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyHotelCheckInTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyHotelCheckOutTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyHotelCheckOutTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyHotelGuestsTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyHotelGuestsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyHotelElevatorTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyHotelElevatorTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="clearAllFiltersTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.clearAllFiltersTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="showPricesButtonTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.showPricesButtonTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="bookNowButtonTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.bookNowButtonTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyCheckInSelectedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyCheckInSelectedTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyCheckOutSelectedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyCheckOutSelectedTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyCheckInOutFilterTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyCheckInOutFilterTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyElevatorFilterAppliedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyElevatorFilterAppliedTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyPastDateNotSelectedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0">
+    <skipped message="Method HolidayHomesTest.verifyPastDateNotSelectedTest()[pri:0, instance:com.tripadvisor.tests.HolidayHomesTest@2c7b5824] depends on not successfully finished methods"/>
+  </testcase>
+</testsuite>
